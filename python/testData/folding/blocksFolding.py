@@ -49,3 +49,11 @@ else:<fold text='...'>
 finally:<fold text='...'>
     f.close()
     print('')</fold>
+
+p = 0
+match p:<fold text='...'>
+    case 0:<fold text='...'>
+        pass
+        pass</fold>
+    case 1:
+        pass</fold>
